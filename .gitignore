@@ -1,0 +1,25 @@
+# Исходные данные Lending Club (около 630 МБ, скачиваются с Kaggle)
+*.csv.gz
+*.csv.zip
+accepted_*.csv
+rejected_*.csv
+
+# Промежуточные файлы пайплайна
+*.parquet
+*.npz
+*.pkl
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ОС
+.DS_Store
+
+# Каталоги данных и промежуточных файлов
+data/
+work/
